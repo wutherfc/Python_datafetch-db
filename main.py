@@ -41,5 +41,5 @@ if __name__ == '__main__':
     draw_line(year, total)
 
     #清除数据
-    db.Deleteall(table1)
+    db.DeleteAll(table1)
     db.DeleteAll(table2)

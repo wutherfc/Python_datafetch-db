@@ -2,7 +2,6 @@ from matplotlib import pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 
-
 def draw_3_1(year, gdp):
     #解决中文显示问题
     plt.rcParams['font.sans-serif'] = ['SimHei']
@@ -78,6 +77,7 @@ def draw_line(year, total):
 
     plt.savefig("line.png")
     plt.show()
+
 """
 draw_line()
 draw_pie_charts()

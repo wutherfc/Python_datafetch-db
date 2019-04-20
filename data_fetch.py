@@ -39,7 +39,7 @@ def fetch_3():
     #print(response.cookies.get_dict())
 
     #解析数据
-    year, gdp, gdp1, gdp2, gdp3 = [], [], [], [], []
+    year, gdp, gdp_1, gdp_2, gdp_3 = [], [], [], [], []
     data = json.loads(response.text)
     data_one = data['returndata']['datanodes']
     for value in data_one:
